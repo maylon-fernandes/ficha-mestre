@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/ordem.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://unpkg.com/lenis@1.1.1/dist/lenis.min.js"></script>
+    <script src="../scripts/scroll.js"></script>
+    <!--LADO DIREITO DA FICHA-->
+    <div class="esquerda">
+        <div class="nome-jogador">
+            <div class="campo">
+                <input type="text" name="personagem" id="personagem" placeholder="Digite o personagem">
+                <div class="fundopreto">PERSONAGEM</div>
+            </div>
+            <div class="campo">
+                <input type="text" name="jogador" id="jogador" placeholder="Digite o jogador">
+                <div class="fundopreto">JOGADOR</div>
+            </div>
+        </div>
+        <div class="atributos">
+           <div class="atributos-container">
+            <div id="hexagon"></div>
+           </div>
+        </div>
+        <div class="origem-classe">
+            <div class="campo">
+                <div class="txtfundo">ORIGEM</div>
+                <input type="text" name="origem" id="origem" placeholder="Digite a origem">
+                
+            </div>
+            <div class="campo">
+                <div class="txtfundo">CLASSE</div>
+                <input type="text" name="classe" id="classe" placeholder="Digite a classe">
+            </div>
+            <div class="campo">
+                <div class="txtfundo">NEX</div>
+                <input type="text" name="classe" id="nex" placeholder="%">
+                <input type="text" name="classe" id="nex2" placeholder="PE / RODADA">
+                <div class="txtfundo">DESL</div>
+                <input type="text" name="classe" id="desl" placeholder="deslocamento">
+            </div>
+            <div class="campo">
+                <div class="txtfundo">PV</div>
+                <input type="text" name="classe" id="nex" placeholder="VIDA ">
+                <div class="txtfundo">PE</div>
+                <input type="text" name="classe" id="desl" placeholder="ESFORÇO">
+            </div>
+            <div class="campo">
+                <div class="txtfundo">DEFESA</div>
+                <input type="text" name="classe" id="defesa" placeholder="DEFESA">
+                <div class="txtfundo">SANIDADE</div>
+                <input type="text" name="classe" id="sanidade" placeholder="SANIDADE">
+            </div>
+            <div class="campo">
+                <div class="protecao">PROTEÇÃO</div>
+                <input type="text" name="classe" id="defesa" placeholder="">
+            </div>
+            <div class="campo">
+                <div class="resistencia">RESISTÊNCIAS</div>
+                <input type="text" name="classe" id="defesa" placeholder="">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="ataque">ATAQUES</th>
+                        <th id="teste">TESTE</th>
+                        <th id="dano">DANO</th>
+                        <th id="critico-ataque">CRÍTICO/ATAQUE/ESPECIAL</th>
+                    </tr>
+                </thead>
+                <table>
+                    <tr>
+                        <td id="ataque-box"><input type="text" name="ataques" id="valor-ataque"></td>
+                        <td id="teste-box"><input type="text" name="teste" id="valor-teste"></td>
+                        <td id="dano-box"><input type="text" name="dano" id="valor-dano"></td>
+                        <td id="critco-box"><input type="text" name="critico" id="valor-critico"></td>
+                    </tr>
+                    <tr>
+                        <td id="ataque-box"><input type="text" name="ataques" id="valor-ataque"></td>
+                        <td id="teste-box"><input type="text" name="teste" id="valor-teste"></td>
+                        <td id="dano-box"><input type="text" name="dano" id="valor-dano"></td>
+                        <td id="critco-box"><input type="text" name="critico" id="valor-critico"></td>
+                    </tr>
+                    <tr>
+                        <td id="ataque-box"><input type="text" name="ataques" id="valor-ataque"></td>
+                        <td id="teste-box"><input type="text" name="teste" id="valor-teste"></td>
+                        <td id="dano-box"><input type="text" name="dano" id="valor-dano"></td>
+                        <td id="critco-box"><input type="text" name="critico" id="valor-critico"></td>
+                    </tr>
+                    <tr>
+                        <td id="ataque-box"><input type="text" name="ataques" id="valor-ataque"></td>
+                        <td id="teste-box"><input type="text" name="teste" id="valor-teste"></td>
+                        <td id="dano-box"><input type="text" name="dano" id="valor-dano"></td>
+                        <td id="critco-box"><input type="text" name="critico" id="valor-critico"></td>
+                    </tr>
+                    <tr>
+                        <td id="ataque-box"><input type="text" name="ataques" id="valor-ataque"></td>
+                        <td id="teste-box"><input type="text" name="teste" id="valor-teste"></td>
+                        <td id="dano-box"><input type="text" name="dano" id="valor-dano"></td>
+                        <td id="critco-box"><input type="text" name="critico" id="valor-critico"></td>
+                    </tr>
+                    </table>
+        </div>
+    </div>
+    
+
+    <!--LADO ESQUERDO DA FICHA-->
+    <div class="direita">
+        <img src="../assets/logo/ordemlogo.png" alt="" srcset="">
+        <div class="pericias">
+            <div class="titulo-pericias">
+                PERÍCIAS
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Perícia</th>
+                        <th>Dados</th>
+                        <th>Bônus</th>
+                        <th>Treino</th>
+                        <th>Outros</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ACROBACIA</td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                    </tr>
+                    <tr>
+                        <td>ADESTRAMENTO</td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                        <td><input type="text" name="Acrobacia" id="acrobacia"></td>
+                    </tr>
+                    <tr>
+                        <td>Artes</td>
+                        <td><input type="text" name="artes_1" id="artes_1"></td>
+                        <td><input type="text" name="artes_2" id="artes_2"></td>
+                        <td><input type="text" name="artes_3" id="artes_3"></td>
+                        <td><input type="text" name="artes_4" id="artes_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Atletismo</td>
+                        <td><input type="text" name="atletismo_1" id="atletismo_1"></td>
+                        <td><input type="text" name="atletismo_2" id="atletismo_2"></td>
+                        <td><input type="text" name="atletismo_3" id="atletismo_3"></td>
+                        <td><input type="text" name="atletismo_4" id="atletismo_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Atualidades</td>
+                        <td><input type="text" name="atualidades_1" id="atualidades_1"></td>
+                        <td><input type="text" name="atualidades_2" id="atualidades_2"></td>
+                        <td><input type="text" name="atualidades_3" id="atualidades_3"></td>
+                        <td><input type="text" name="atualidades_4" id="atualidades_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Ciências</td>
+                        <td><input type="text" name="ciencias_1" id="ciencias_1"></td>
+                        <td><input type="text" name="ciencias_2" id="ciencias_2"></td>
+                        <td><input type="text" name="ciencias_3" id="ciencias_3"></td>
+                        <td><input type="text" name="ciencias_4" id="ciencias_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Crime</td>
+                        <td><input type="text" name="crime_1" id="crime_1"></td>
+                        <td><input type="text" name="crime_2" id="crime_2"></td>
+                        <td><input type="text" name="crime_3" id="crime_3"></td>
+                        <td><input type="text" name="crime_4" id="crime_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Diplomacia</td>
+                        <td><input type="text" name="diplomacia_1" id="diplomacia_1"></td>
+                        <td><input type="text" name="diplomacia_2" id="diplomacia_2"></td>
+                        <td><input type="text" name="diplomacia_3" id="diplomacia_3"></td>
+                        <td><input type="text" name="diplomacia_4" id="diplomacia_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Enganação</td>
+                        <td><input type="text" name="enganacao_1" id="enganacao_1"></td>
+                        <td><input type="text" name="enganacao_2" id="enganacao_2"></td>
+                        <td><input type="text" name="enganacao_3" id="enganacao_3"></td>
+                        <td><input type="text" name="enganacao_4" id="enganacao_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Fortitude</td>
+                        <td><input type="text" name="fortitude_1" id="fortitude_1"></td>
+                        <td><input type="text" name="fortitude_2" id="fortitude_2"></td>
+                        <td><input type="text" name="fortitude_3" id="fortitude_3"></td>
+                        <td><input type="text" name="fortitude_4" id="fortitude_4"></td>
+                    </tr>
+                    <tr>
+                        <td>Furtividade</td>
+                        <td><input type="text" name="furtividade_1" id="furtividade_1"></td>
+                        <td><input type="text" name="furtividade_2" id="furtividade_2"></td>
+                        <td><input type="text" name="furtividade_3" id="furtividade_3"></td>
+                        <td><input type="text" name="furtividade_4" id="furtividade_4"></td>
+                    </tr>
+                    <tr>
+                        <td>INICIATIVA</td>
+                        <td><input type="text" name="Iniciativa" id="iniciativa"></td>
+                        <td><input type="text" name="Iniciativa" id="iniciativa"></td>
+                        <td><input type="text" name="Iniciativa" id="iniciativa"></td>
+                        <td><input type="text" name="Iniciativa" id="iniciativa"></td>
+                    </tr>
+                    <tr>
+                        <td>INTIMIDAÇÃO</td>
+                        <td><input type="text" name="Intimidacao" id="intimidacao"></td>
+                        <td><input type="text" name="Intimidacao" id="intimidacao"></td>
+                        <td><input type="text" name="Intimidacao" id="intimidacao"></td>
+                        <td><input type="text" name="Intimidacao" id="intimidacao"></td>
+                    </tr>
+                    <tr>
+                        <td>INTUIÇÃO</td>
+                        <td><input type="text" name="Intuicao" id="intuicao"></td>
+                        <td><input type="text" name="Intuicao" id="intuicao"></td>
+                        <td><input type="text" name="Intuicao" id="intuicao"></td>
+                        <td><input type="text" name="Intuicao" id="intuicao"></td>
+                    </tr>
+                    <tr>
+                        <td>INVESTIGAÇÃO</td>
+                        <td><input type="text" name="Investigacao" id="investigacao"></td>
+                        <td><input type="text" name="Investigacao" id="investigacao"></td>
+                        <td><input type="text" name="Investigacao" id="investigacao"></td>
+                        <td><input type="text" name="Investigacao" id="investigacao"></td>
+                    </tr>
+                    <tr>
+                        <td>LUTA</td>
+                        <td><input type="text" name="Luta" id="luta"></td>
+                        <td><input type="text" name="Luta" id="luta"></td>
+                        <td><input type="text" name="Luta" id="luta"></td>
+                        <td><input type="text" name="Luta" id="luta"></td>
+                    </tr>
+                    <tr>
+                        <td>MEDICINA</td>
+                        <td><input type="text" name="Medicina" id="medicina"></td>
+                        <td><input type="text" name="Medicina" id="medicina"></td>
+                        <td><input type="text" name="Medicina" id="medicina"></td>
+                        <td><input type="text" name="Medicina" id="medicina"></td>
+                    </tr>
+                    <tr>
+                        <td>OCULTISMO</td>
+                        <td><input type="text" name="Ocultismo" id="ocultismo"></td>
+                        <td><input type="text" name="Ocultismo" id="ocultismo"></td>
+                        <td><input type="text" name="Ocultismo" id="ocultismo"></td>
+                        <td><input type="text" name="Ocultismo" id="ocultismo"></td>
+                    </tr>
+                    <tr>
+                        <td>PERCEPÇÃO</td>
+                        <td><input type="text" name="Percepcao" id="percepcao"></td>
+                        <td><input type="text" name="Percepcao" id="percepcao"></td>
+                        <td><input type="text" name="Percepcao" id="percepcao"></td>
+                        <td><input type="text" name="Percepcao" id="percepcao"></td>
+                    </tr>
+                    <tr>
+                        <td>PILOTAGEM</td>
+                        <td><input type="text" name="Pilotagem" id="pilotagem"></td>
+                        <td><input type="text" name="Pilotagem" id="pilotagem"></td>
+                        <td><input type="text" name="Pilotagem" id="pilotagem"></td>
+                        <td><input type="text" name="Pilotagem" id="pilotagem"></td>
+                    </tr>
+                    <tr>
+                        <td>PONTARIA</td>
+                        <td><input type="text" name="Pontaria" id="pontaria"></td>
+                        <td><input type="text" name="Pontaria" id="pontaria"></td>
+                        <td><input type="text" name="Pontaria" id="pontaria"></td>
+                        <td><input type="text" name="Pontaria" id="pontaria"></td>
+                    </tr>
+                    <tr>
+                        <td>PROFISSÃO</td>
+                        <td><input type="text" name="Profissao" id="profissao"></td>
+                        <td><input type="text" name="Profissao" id="profissao"></td>
+                        <td><input type="text" name="Profissao" id="profissao"></td>
+                        <td><input type="text" name="Profissao" id="profissao"></td>
+                    </tr>
+                    <tr>
+                        <td>REFLEXOS</td>
+                        <td><input type="text" name="Reflexos" id="reflexos"></td>
+                        <td><input type="text" name="Reflexos" id="reflexos"></td>
+                        <td><input type="text" name="Reflexos" id="reflexos"></td>
+                        <td><input type="text" name="Reflexos" id="reflexos"></td>
+                    </tr>
+                    <tr>
+                        <td>RELIGIÃO</td>
+                        <td><input type="text" name="Religiao" id="religiao"></td>
+                        <td><input type="text" name="Religiao" id="religiao"></td>
+                        <td><input type="text" name="Religiao" id="religiao"></td>
+                        <td><input type="text" name="Religiao" id="religiao"></td>
+                    </tr>
+                    <tr>
+                        <td>SOBREVIVÊNCIA</td>
+                        <td><input type="text" name="Sobrevivencia" id="sobrevivencia"></td>
+                        <td><input type="text" name="Sobrevivencia" id="sobrevivencia"></td>
+                        <td><input type="text" name="Sobrevivencia" id="sobrevivencia"></td>
+                        <td><input type="text" name="Sobrevivencia" id="sobrevivencia"></td>
+                    </tr>
+                    <tr>
+                        <td>TÁTICA</td>
+                        <td><input type="text" name="Tatica" id="tatica"></td>
+                        <td><input type="text" name="Tatica" id="tatica"></td>
+                        <td><input type="text" name="Tatica" id="tatica"></td>
+                        <td><input type="text" name="Tatica" id="tatica"></td>
+                    </tr>
+                    <tr>
+                        <td>TECNOLOGIA</td>
+                        <td><input type="text" name="Tecnologia" id="tecnologia"></td>
+                        <td><input type="text" name="Tecnologia" id="tecnologia"></td>
+                        <td><input type="text" name="Tecnologia" id="tecnologia"></td>
+                        <td><input type="text" name="Tecnologia" id="tecnologia"></td>
+                    </tr>
+                    <tr>
+                        <td>VONTADE</td>
+                        <td><input type="text" name="Vontade" id="vontade"></td>
+                        <td><input type="text" name="Vontade" id="vontade"></td>
+                        <td><input type="text" name="Vontade" id="vontade"></td>
+                        <td><input type="text" name="Vontade" id="vontade"></td>
+                    </tr>
+                    </table>
+        </div>
+    </div>
+</body>
+</html>

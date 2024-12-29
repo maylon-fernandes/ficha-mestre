@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FichaMestre </title>
+    <link rel="stylesheet" href="./styles/menu.css"">
+    <link rel="icon" href="./styles/icon/icon.png" type="image/png">
+</head>
+<body>
+    <div class="aviso-ajuda hidden">
+        <div class="icon-ajuda">
+            <img src="./assets/icon/icon.png" alt="" srcset="">
+        </div>
+        <div class="desc-ajuda">
+            <p>O FichaMestre é um projeto dedicado a fãs de RPG criado por apenas uma pessoa, projetado para tornar a criação de fichas de personagem simples e prática. Ele oferece criação automatizada de personagens, suporte para importação e exportação de arquivos JSON para ajustes futuros, além de exportação em PDF para uso offline.</p>
+            <button type="button" id="btnexit">FECHAR</button>
+        </div>
+    </div>
+    
+    <button class="button-ajuda">
+        ?
+    </button>
+    
+
+
+    <script src="./scripts/menu.js"></script>
+    <div class="navbar">
+        <img src="./styles/icon/icon.png" alt="" srcset="">
+    <h1>FichaMestre</h1> | <span>Crie sua ficha RPG gratuitamente</span>
+
+    </div>
+
+    <div class="container">
+        <div class="rpg">
+            <h1 id="titulo">Dungeons & Dragons</h1>
+            <p id="desc">Dungeons & Dragons é um RPG de fantasia que explora mundos mágicos, cheios de aventuras, criaturas místicas, batalhas épicas e histórias envolventes.</p>
+            <button type="button">
+                <a href="./pages/dnd.html" target="_blank" rel="noopener noreferrer">
+                    CRIAR MINHA FICHA
+                </a>
+            </button>
+        </div>
+        <div class="rpg" id="ordem">
+            <h1 id="titulo">Ordem Paranormal</h1>
+            <p id="desc">Ordem Paranormal é um RPG de terror e mistério onde os jogadores investigam fenômenos sobrenaturais, enfrentando criaturas e eventos inexplicáveis em um mundo repleto de mistérios e forças ocultas</p>
+            <button type="button">
+                <a href="./pages/ordem.html" target="_blank" rel="noopener noreferrer">
+                    CRIAR MINHA FICHA
+                </a>
+            </button>
+        </div>
+        <div class="rpg" id="cthulhu">
+            <h1 id="titulo">Call of Cthulhu</h1>
+            <p id="desc">Call of Cthulhu é um RPG de horror cósmico onde os jogadores enfrentam horrores indescritíveis e investigações sobrenaturais, explorando temas de loucura, mistério e o desconhecido, inspirados nas obras de H.P. Lovecraft.</p>
+            <button type="button">
+                <a href="ficha.html" target="_blank" rel="noopener noreferrer">
+                    CRIAR MINHA FICHA
+                </a>
+            </button>
+        </div>
+        <div class="rpg" id="oprpg">
+            <h1 id="titulo">OP-RPG</h1>
+            <p id="desc">OP-RPG é um RPG inspirado no universo de One Piece, onde os jogadores exploram os mares, formam tripulações e enfrentam inimigos em busca de tesouros e aventuras, com foco em combates e desenvolvimento de habilidades únicas.</p>
+           
+                <button type="button">
+                    <a href="ficha.html" target="_blank" rel="noopener noreferrer">
+                        CRIAR MINHA FICHA
+                    </a>
+                </button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.1.1/dist/lenis.min.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    </body>
+
+</html>
