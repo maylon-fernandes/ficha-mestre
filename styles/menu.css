@@ -155,7 +155,6 @@ body {
 .rpg {
     width: 100vw;
     height: 100vh;
-    background-image: url(/assets/wallpaper/dnd.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,6 +164,10 @@ body {
     color: #fff;
     padding: 50px;
     gap: 10px;
+}
+
+#dnd {
+    background-image: url(/assets/wallpaper/dnd.jpg);
 }
 
 #desc {
