@@ -167,7 +167,7 @@ body {
 }
 
 #dnd {
-    background-image: url(/assets/wallpaper/dnd.jpg);
+    background-image: url(../assets/wallpaper/dnd.jpg);
 }
 
 #desc {
@@ -182,15 +182,15 @@ body {
 
 
 #ordem {
-    background-image: url(/assets/wallpaper/ordemparanormal.jpg);
+    background-image: url(../assets/wallpaper/ordemparanormal.jpg);
 }
 
 #cthulhu {
-    background-image: url(/assets/wallpaper/cthulhu.jpg);
+    background-image: url(../assets/wallpaper/cthulhu.jpg);
 }
 
 #oprpg {
-    background-image: url(/assets/wallpaper/oprpg.jpg);
+    background-image: url(../assets/wallpaper/oprpg.jpg);
 }
 a {
     display: flex;  /* Faz o link se comportar como um contêiner flex */
